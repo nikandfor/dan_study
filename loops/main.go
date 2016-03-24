@@ -26,6 +26,9 @@ func main() {
 
 	fmt.Printf("3 loop\n")
 	for i = 0; i < 3; i++ {
+		if i == 1 {
+			continue
+		}
 		fmt.Printf("i3 : %v\n", i)
 	}
 }
